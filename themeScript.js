@@ -108,7 +108,7 @@ window.Reading = {}; // "Currently reading" global Object container
 									thumb.parent().parent().addClass("InProgress") // Add InProgress Class To cellcontainer for Book
 								}
 								//Add Progressbar / page count to book Thumb
-								modified_thumb_content = "<div class='progress-container'  style='position: absolute; z-index: 9; width: -webkit-fill-available; background: rgba(00, 00, 00, 0.6)' >" +
+								modified_thumb_content = "<div class='progress-container'  style='position: absolute; z-index: 9; width: -webkit-fill-available; width:100%; background: rgba(00, 00, 00, 0.6)' >" +
 															"<div class='progress_percent' style='bottom: 0px; left: 0px; background: "+ progress_color +"; width: " + progress_percent + "%;'>&nbsp;</div>" +
 															"<div class='progress_string'  style='bottom: 0px; left: 0px; position: absolute; color: #FFF; width: 100%; height: 100%;'>" + progress_string + "</div>" +
 														 "</div>" + base_thumb_content;
@@ -140,7 +140,7 @@ window.Reading = {}; // "Currently reading" global Object container
 							thumb.parent().parent().addClass("New") // Add New Class To cellcontainer for Book
 							
 							//Add Progressbar to book Thumbnail
-							modified_thumb_content = "<div class='progress-container'  style='position: absolute; z-index: 9; width: -webkit-fill-available; background: rgba(00, 00, 00, 0.6)' >" +
+							modified_thumb_content = "<div class='progress-container'  style='position: absolute; z-index: 9; width: -webkit-fill-available; width:100%; background: rgba(00, 00, 00, 0.6)' >" +
 														"<div class='progress_percent' style='bottom: 0px; left: 0px; background: "+ progress_color +"; width: " + progress_percent + "%;'>&nbsp;</div>" +
 														"<div class='progress_string'  style='bottom: 0px; left: 0px; position: absolute; color: #FFF; width: 100%; height: 100%;'>" + progress_string + "</div>" +
 													 "</div>" + base_thumb_content;
