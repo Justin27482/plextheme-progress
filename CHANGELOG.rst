@@ -6,6 +6,13 @@ CHANGELOG
 CHANGELOG
 #########
 
+0.1.2
+#####
+* Added reading progress bars
+* Added progress filter buttons
+* Added scroll to top / bottom button
+* Added dedup
+
 0.1.1
 #####
 
